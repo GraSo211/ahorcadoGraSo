@@ -89,6 +89,25 @@ footer{
     }
 }
 
+@media screen and (max-width:1366px){
+    #canvas{
+        margin-left: 3%;
+
+    }
+    #iniciar{
+        top: 180px;
+        left: 460px;
+        position: absolute;
+        margin-top: 1%;
+
+    }
+    #agregar{
+        top: 350px;
+        left: 490px;
+        position: absolute;
+        margin-top: 5px;
+    }
+}
 
 @media screen and (max-width:1360px){
     #canvas{
