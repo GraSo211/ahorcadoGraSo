@@ -1,6 +1,6 @@
 function crearHorca(){
     var horca =new Image();
-    horca.src = "../images/horca.png"
+    horca.src = "./horca.png"
     horca.style.width = "250px"
     horca.style.height = "250px"
     
@@ -286,7 +286,7 @@ function dibujarHorca(errores){
         case 0:
         //cabeza
         var cabeza = new Image();
-        cabeza.src = "../images/cabeza.png";
+        cabeza.src = "./cabeza.png";
         cabeza.onload = function(){
         pincel.drawImage(cabeza, 1305, 225, 120, 100)
         }
@@ -298,7 +298,7 @@ function dibujarHorca(errores){
         case 1:
         //cuerpo
         var cuerpo = new Image();
-        cuerpo.src = "../images/cuerpo.png";
+        cuerpo.src = "./cuerpo.png";
         cuerpo.onload = function(){
         pincel.drawImage(cuerpo, 1303, 325, 130, 140)
         }
@@ -307,7 +307,7 @@ function dibujarHorca(errores){
         case 2:
         //mano izq
         var brazo = new Image();
-        brazo.src = "../images/brazo.png";
+        brazo.src = "./brazo.png";
         brazo.onload = function(){
         pincel.drawImage(brazo, 1223, 326, 80, 170)
         }
@@ -316,7 +316,7 @@ function dibujarHorca(errores){
         case 3:
         //mano der
         var brazo1 = new Image();
-        brazo1.src = "../images/brazo1.png";
+        brazo1.src = "./brazo1.png";
         brazo1.onload = function(){
         pincel.drawImage(brazo1, 1432, 325, 60, 170)
         }
@@ -325,7 +325,7 @@ function dibujarHorca(errores){
         case 4:
         //pie izq
         var pierna = new Image();
-        pierna.src = "../images/pierna.png";
+        pierna.src = "./pierna.png";
         pierna.onload = function(){
         pincel.drawImage(pierna, 1300, 466  , 60, 140)
         }
@@ -334,7 +334,7 @@ function dibujarHorca(errores){
         case 5:
         //pie der
         var pierna1 = new Image();
-        pierna1.src = "../images/pierna1.png";
+        pierna1.src = "./pierna1.png";
         pierna1.onload = function(){
         pincel.drawImage(pierna1, 1374, 466, 60, 140)
         }
@@ -362,7 +362,7 @@ function derrota(palabra){
         confirmButtonColor:"#c20000",
         color: "#c20000"
     }).then(function(){
-        window.location= "../html/index.html"
+        window.location= "./index.html"
     })
 }
 
@@ -386,7 +386,7 @@ function victoria(palabra){
         confirmButtonColor:"#258d19",
         color: "#258d19"
     }).then(function(){
-        window.location= "../html/index.html"
+        window.location= "./index.html"
     })  
 }
 
@@ -405,7 +405,7 @@ function agregarPalabra(){
         color: '#716add',
         backdrop: `
         rgba(0,0,123,0.4)
-        url("../images/nyan-cat.gif")
+        url("./nyan-cat.gif")
         left top
         no-repeat
         `,  
@@ -481,13 +481,13 @@ var pantalla = document.getElementById("canvas");
 var pincel = pantalla.getContext("2d");
 var muerte1 = new Image();
 
-muerte1.src = "../images/muerte.png";
+muerte1.src = "./muerte.png";
 muerte1.onload = function(){
     pincel.drawImage(muerte1,0,0)
 }
 
 var muerte2 = new Image();
-muerte2.src = "../images/muerte.png";
+muerte2.src = "./muerte.png";
 muerte2.onload = function(){
     pincel.drawImage(muerte2,920,0)
 }
