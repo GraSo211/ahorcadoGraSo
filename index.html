@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Ahorcado</title>
+    </head>
+
+
+    <body>
+        <header>
+            <img id="imgLogo" src="../images/Vector.png" alt="logo">
+            <h1 id="titulo">AHORCADO</h1>
+        </header>
+
+
+        <main id="contenedor">
+            <canvas id="canvas" width="1200" height="800"></canvas>
+            <div>
+                <button id="iniciar" onclick="iniciarJuego()">Iniciar Juego</button>
+                <button id="agregar" onclick="agregarPalabra()">Agregar Palabra</button>
+            </div>
+            
+
+
+        </main>
+
+
+        <footer>
+            Desarrollado por GraSo<br>
+            Agradecimientos Especiales: &copy; Ryer Music
+        </footer>
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script src="../js/main.js"></script>
+
+    </body>
+
+
+</html>

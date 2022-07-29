@@ -1,0 +1,71 @@
+#imgLogo{
+    float: left;
+    margin-left: 5%;
+}
+
+#titulo{
+    margin-top: 10px;
+    margin-right: 6%;
+    text-align: center;
+    
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    color: #0A3871;
+}
+
+#canvas{
+    margin: 50px 0px 0px 50px;
+    
+}
+
+#iniciar{
+    font-family: 'Koulen', cursive;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: #0A3871;
+    color: white;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+
+    
+}
+
+#agregar{
+    font-family: 'Koulen', cursive;
+    border-width: 1px;
+    border-radius: 20px ;
+    background-color: white;
+    color: #0A3871;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 40.8%;
+
+}
+
+.tituloVictoria{
+    font-family: 'Koulen', cursive;
+}
+
+.tituloDerrota{
+    font-family: 'Koulen', cursive;
+}
+
+footer{
+    text-align: center;
+    color: #0A3871;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+
+}
