@@ -69,3 +69,61 @@ footer{
     width: 100%;
 
 }
+
+
+@media screen and (max-width:1920px){
+    #canvas{
+        margin-left: 18%;
+    }
+    #iniciar{
+        top: 200px;
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    #agregar{
+        top: 350px;
+        position: absolute;
+        margin-left: 3.5%;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width:1360px){
+    #canvas{
+        margin-left: 4%;
+    }
+    #iniciar{
+        top: 200px;
+        left: 480px;
+        position: absolute;
+        margin-top: 1%;
+
+    }
+    #agregar{
+        top: 350px;
+        left: 510px;
+        position: absolute;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width:845px){
+    #canvas{
+        margin-left: 10%;
+    }
+    #iniciar{
+        top: 200px;
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    #agregar{
+        top: 350px;
+        position: absolute;
+        margin-left: 3.5%;
+        margin-top: 5px;
+    }
+}
